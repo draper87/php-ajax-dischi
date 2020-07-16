@@ -1,0 +1,54 @@
+// REGOLE RESET
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+// REGOLE HEADER
+header {
+  height: 80px;
+  background-color: #2e3a46;
+  .container {
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    img {
+      height: 100%;
+      padding: 10px 0;
+    }
+  }
+}
+// REGOLE MAIN
+main {
+  background-color: #1e2d3b;
+  height: calc(100% - 80px);
+  .container {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    .singolocd {
+      background-color: #2e3a46;
+      padding: 15px 10px 30px 10px;
+      width: calc(100% / 5);
+      margin: 5px 5px;
+      img {
+        width: 100%;
+      }
+      h4 {
+        color: white;
+        text-align: center;
+        text-transform: uppercase;
+      }
+      h5,p {
+        text-align: center;
+        color: #5a5f65;
+        padding: 2px 0;
+      }
+    }
+  }
+}
