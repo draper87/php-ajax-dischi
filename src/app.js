@@ -3,11 +3,12 @@ const Handlebars = require("handlebars");
 
 $(document).ready(function() {
 
-
+  // quando seleziono la select parte una funzione che fa la chiamata API al mio database musicale
   $('#filtra-musica').change(function() {
     filtraDischi();
   })
 
+  // funzione che fa chiamata API per tutti gli album quando apro la pagina web e stampa i risultati
   function chiamaDischi() {
     $.ajax({
       url: 'http://localhost:8888/php-ajax-dischi/api.php',
@@ -34,10 +35,11 @@ $(document).ready(function() {
     }
   }
 
-  chiamaDischi();
+  chiamaDischi(); // chiamo la funzione per stampare i risultati
 
 
-
+  // funzione che fa una chiamata API personalizzata in base all autore del album, come parametro gli passo il valore della select
+  // come risultato stampera a schermo solamente gli album dell autore selezionato
   function filtraDischi() {
 
     if ($('#filtra-musica').val() == 'all') {

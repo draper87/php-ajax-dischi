@@ -19,12 +19,15 @@ require 'database.php';
    </head>
    <body>
 
+     <!-- Inizio header -->
      <header>
        <div class="container">
          <img src="img/logo.png" alt="logo">
        </div>
      </header>
+     <!-- Fine Header -->
 
+     <!-- Inizio Main -->
      <main>
        <div class="container">
          <?php foreach ($database as $singolo_cd) { ?>
@@ -37,6 +40,7 @@ require 'database.php';
          <?php } ?>
        </div>
      </main>
+     <!-- Fine main -->
 
 
    </body>

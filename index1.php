@@ -19,12 +19,15 @@ require 'database.php';
   </head>
   <body>
 
+    <!-- Inizio header -->
     <header>
       <div class="container">
         <img src="img/logo.png" alt="logo">
       </div>
     </header>
+    <!-- Fine Header -->
 
+    <!-- Inizio Main -->
     <main>
       <select id="filtra-musica" name="">
         <option value="all">Tutti</option>
@@ -36,7 +39,10 @@ require 'database.php';
 
       </div>
     </main>
+    <!-- Fine main -->
 
+
+    <!-- Inizio template -->
     <script id="entry-template" type="text/x-handlebars-template">
       <div class="singolocd">
         <img src="{{ poster }}" alt="poster">
@@ -45,6 +51,7 @@ require 'database.php';
         <p>{{ year }}</p>
       </div>
     </script>
+    <!-- Fine template -->
 
     <script src="dist/app.js" charset="utf-8"></script>
 
