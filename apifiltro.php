@@ -17,7 +17,6 @@
     if (($singolo_cd['author'] == $artista)) {
       $array_artista[] = $singolo_cd;
     };
-
   }
 
   // formatto il database ottenuto in formato json
