@@ -21,6 +21,10 @@ header {
 }
 // REGOLE MAIN
 main {
+  text-align: center;
+  select {
+    margin: 20px 0;
+  }
   background-color: #1e2d3b;
   height: calc(100% - 80px);
   .container {

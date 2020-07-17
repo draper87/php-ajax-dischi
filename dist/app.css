@@ -22,8 +22,13 @@ header .container img {
 }
 
 main {
+  text-align: center;
   background-color: #1e2d3b;
   height: calc(100% - 80px);
+}
+
+main select {
+  margin: 20px 0;
 }
 
 main .container {
