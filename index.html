@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="dist/app.css">
+    <title>Spotify</title>
+  </head>
+  <body>
+
+    <header>
+      <div class="container">
+        <img src="img/logo.png" alt="logo">
+      </div>
+    </header>
+
+    <main>
+      <div class="container">
+
+      </div>
+    </main>
+
+    <script id="entry-template" type="text/x-handlebars-template">
+      <div class="singolocd">
+        <img src="{{ poster }}" alt="poster">
+        <h4>{{ title }}</h4>
+        <h5>{{ author }}</h5>
+        <p>{{ year }}</p>
+      </div>
+    </script>
+
+    <script src="dist/app.js" charset="utf-8"></script>
+
+  </body>
+</html>

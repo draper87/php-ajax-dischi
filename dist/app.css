@@ -27,7 +27,7 @@ main {
 }
 
 main .container {
-  width: 60%;
+  width: 70%;
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -44,6 +44,7 @@ main .container .singolocd {
 }
 
 main .container .singolocd img {
+  display: block;
   width: 100%;
 }
 
