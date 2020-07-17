@@ -21,6 +21,7 @@ $(document).ready(function() {
     })
 
     function stampaDischi(databaseArray) {
+      $('main .container').html('');
       var source = $("#entry-template").html();
       var template = Handlebars.compile(source);
 
